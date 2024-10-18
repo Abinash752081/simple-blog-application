@@ -1,0 +1,108 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f8fa;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 800px; 
+  margin: 30px auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+  margin-bottom: 40px;
+}
+
+input, textarea {
+  padding: 10px; 
+  font-size: 14px; 
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  width: 100%;
+  max-width: 100%; 
+  background-color: #fdfdfd;
+  color: #333;
+  box-sizing: border-box; 
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px; 
+}
+
+button {
+  padding: 10px 20px; 
+  font-size: 14px; 
+  color: white;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  align-self: flex-start; 
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.posts-container {
+  margin-top: 30px;
+}
+
+.post {
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.post h3 {
+  margin: 0;
+  color: #333;
+  font-size: 20px;
+}
+
+.post p {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #666;
+}
+
+small {
+  font-size: 14px;
+  color: #888;
+}
+
+button.edit {
+  background-color: #ffca28;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+button.edit:hover {
+  background-color: #ffb300;
+}
+
+button.delete {
+  background-color: #dc3545;
+}
+
+button.delete:hover {
+  background-color: #c82333;
+}
