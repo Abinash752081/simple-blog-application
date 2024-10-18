@@ -130,4 +130,4 @@ Categorize posts using tags.
 Integrate a rich text editor for content creation.
 Deploy the app to a cloud platform like Heroku or Vercel.
 Acknowledgements
-I would like to express my gratitude to my project guide, [Guide's Name], for their invaluable guidance. Thanks also go to my professors and friends for their support.
+I would like to express my gratitude to my project guide, **Ms. Tanya Sagwal**, for their invaluable guidance. Thanks also go to my professors and friends for their support.
